@@ -45,4 +45,4 @@ checkstyle.xml
 /generated-snippets/
 
 # Local configs for dev
-# application.properties
+application.properties
