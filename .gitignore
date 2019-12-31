@@ -1,0 +1,48 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+node_modules
+
+
+# Gradle generated resources
+.gradle/
+classes/
+
+# checkstyle, so we force to always download the latest version
+checkstyle.xml
+*.iml
+/bin/
+/generated-snippets/
+
+# Local configs for dev
+# application.properties
